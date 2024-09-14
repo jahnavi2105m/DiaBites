@@ -60,6 +60,26 @@ def calculate_calories(bmi,bmr, activity_level):
         
 
 #calculate portion sizes based on calorie calculations and excercise level 
+def calculate_meal_portions(total_calories):
+    meal_portions = {
+        'Breakfast': total_calories * 0.25,
+        'Lunch': total_calories * 0.30,
+        'Dinner': total_calories * 0.30,
+        'Snacks': total_calories * 0.15
+    }
+    return meal_portions
+
+#calculate daily insulin intake needed based on given factors (total daily dose)
+def TDD(diabeties_type,weight):
+    TDD = 0.55*weight
+    return TDD
+
+#calculate how many units of insulin are needed by carbs in meals 
+def insulin_ratio(TDD,calorie_calc):
+    carb = calorie_calc/4
+
+    ratio = 500/TDD
+    #ratio means that 1 unit of insulin will cover (raio amount) of carbs
 
 
 # Sample route to test if the server is running
@@ -68,12 +88,12 @@ def home():
      # Grabbing user data from the POST request
     data = request.json
     
-    weight = data['weight']  # in kilograms
-    height = data['height']  # in centimeters
-    age = data['age']  # in years
+    weight = data['weight']  # kg
+    height = data['height']  # cm
+    age = data['age']  
     gender = data['gender']  # 'male' or 'female'
-    activity_level = data['activity_level']  # sedentary, lightly active, etc.
-    exercise_calories = data['exercise_calories']  # calories burned from exercise
+    activity_level = data['activity_level']  
+    diabeties_type = data['diabeties_type']  
     
     return "Meal Plan API is running!!"
 
