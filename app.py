@@ -2,9 +2,11 @@ from flask import Flask, request, jsonify
 import mysql.connector
 import os
 
+
 #connecting front-end and back-end components (Cross Origin Resource Sharing )
 #from flask_cors import CORS
 #CORS(src)
+
 
 app = Flask(__name__)
 
@@ -16,8 +18,13 @@ db = mysql.connector.connect(
     database="mealplan_db"
 )
 
-#Algorithim - calcuations based off given data 
+#api integration
 
+
+
+
+
+#Algorithim - calcuations based off given data 
 #BMI calculation  
 def calculate_bmi(weight, height):
     #weight(kg), height in m
