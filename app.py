@@ -14,7 +14,7 @@ db = mysql.connector.connect(
 # Sample route to test if the server is running
 @app.route('/')
 def home():
-    return "Meal Plan API is running!"
+    return "Meal Plan API is running!!"
 
 if __name__ == '__main__':
     app.run(debug=True)
