@@ -34,7 +34,7 @@ const Header = () => {
                                     </Link>
                                 </NavItem>
                                 <NavItem>
-                                    <Link className="nav-link" to={"/custom-components"}> 
+                                    <Link className="nav-link" to={"/team-components"}> 
                                         Team
                                     </Link> 
                                 </NavItem>

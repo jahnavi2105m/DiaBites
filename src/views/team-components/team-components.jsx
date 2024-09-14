@@ -9,9 +9,11 @@ import HeaderBannerSources from "../../components/sources-banner/sources-banner.
 import Footer from "../../components/footer/footer.jsx";
 
 // sections for this page
+
+import TeamPageComponent from "./sections/teampagecomponent.jsx";
 import HeaderComponent from "./sections/headercomponent.jsx";
 import BannerComponent from "./sections/bannercomponent.jsx";
-import FormBannerComponent from "./sections/formbannercomponent.jsx";
+import FormBannerComponent from "./sections/teampagecomponent.jsx";
 import FeatureComponent from "./sections/featurecomponent.jsx";
 import PortfolioComponent from "./sections/portfoliocomponent.jsx";
 import PricingComponent from "./sections/pricingcomponent.jsx";
@@ -20,7 +22,7 @@ import TestimonialComponent from "./sections/testimonialcomponent.jsx";
 import BlogComponent from "./sections/blogcomponent.jsx";
 import C2aComponent from "./sections/c2acomponent.jsx";
 import ContactComponent from "./sections/contactcomponent.jsx";
-import CallToAction from "../../components/call-to-action/CallToAction"
+import CallToAction from "../../components/call-to-action/CallToAction.jsx"
 
 const CustomComponents = () => {
     return (
@@ -28,6 +30,7 @@ const CustomComponents = () => {
             <Header />
             <div className="page-wrapper">
                 <div className="container-fluid">
+                    <TeamPageComponent />
                     <HeaderBanner2 />
                     <HeaderBannerTeam />
                     <HeaderBannerSources />
