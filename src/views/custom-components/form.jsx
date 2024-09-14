@@ -4,7 +4,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Row, Col, Container,Form, FormGroup, Input, Button, } from 'reactstrap';
 
-const form = () => {
+const FormComponent = () => {
 
   const navigate = useNavigate();
     return (
@@ -140,4 +140,4 @@ const form = () => {
     );
 };
 
-export default form;
+export default FormComponent;
