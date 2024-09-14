@@ -94,7 +94,7 @@ def home():
     gender = data['gender']  # 'male' or 'female'
     activity_level = data['activity_level']  
     diabeties_type = data['diabeties_type']  
-    
+    dietary_restrictions = data['dietary_restrictions']
     return "Meal Plan API is running!!"
 
 if __name__ == '__main__':

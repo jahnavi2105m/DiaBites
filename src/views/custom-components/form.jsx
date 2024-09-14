@@ -1,6 +1,5 @@
 /*page for clients to enter */ 
 
-/* eslint-disable */
 import React from 'react';
 import { Row, Col, Container,Form, FormGroup, Input, Button, } from 'reactstrap';
 
@@ -13,9 +12,7 @@ const form = () => {
               <Col md="7" className="text-center">
                 <h1 className="title font-bold">Take Our Assesment</h1>
                 <h6 className="subtitle">
-                  Here you can check Demos we created based on WrapKit. Its quite
-                  easy to Create your own dream website &amp; dashboard in
-                  No-time.
+                  A healthier life starts here 
                 </h6>
               </Col>
             </Row>
