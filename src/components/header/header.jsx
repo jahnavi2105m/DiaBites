@@ -30,7 +30,7 @@ const Header = () => {
                                 </NavItem>
                                 <NavItem>
                                     <Link className="nav-link" to={"/custom-components"}>
-                                        About Us
+                                        My Plan
                                     </Link>
                                 </NavItem>
                                 

@@ -8,7 +8,7 @@ const HeaderBanner2 = () => {
             <Container>
                 <Row className="justify-content-center">
                     <Col lg="8" md="6" className="align-self-center text-center">
-                        <h1 className="title">About Us</h1>
+                        <h1 className="title">My Plan</h1>
                         <h4 className="subtitle font-light">Free Reactstrap UI Kit with<br /> Lots of Ready to Use Sections</h4>
                         <a href="https://wrappixel.com/templates/wrapkit-react-lite/" className="btn btn-outline-light m-r-20 btn-md m-t-30 font-14">Download Free</a>
                         <Link to="/#coming" className="btn btn-md m-t-30 btn-info-gradiant font-14">Upgrade To Pro</Link>
