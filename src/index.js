@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import Components from "./views/components/components.jsx";
 import CustomComponents from "./views/custom-components/custom-components.jsx";
-
+import Form from "./views/custom-components/form.jsx"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -20,6 +20,7 @@ root.render(
     <Routes>
       <Route path="/custom-components" element={<CustomComponents />} />
       <Route path="/" element={<Components />} />
+      <Route path="/forms" element={<Form/>}/>
     </Routes>
   </HashRouter>
 );

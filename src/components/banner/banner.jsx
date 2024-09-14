@@ -10,7 +10,7 @@ const HeaderBanner = () => {
                     <Col lg="8" md="6" className="align-self-center text-center">
                         <h1 className="title">DiaBite</h1>
                         <h4 className="subtitle font-light">insert<br /> words</h4>
-                        <Link to="/#coming" className="btn btn-md m-t-30 btn-info-gradiant font-14">Take our Quiz</Link>
+                        <Link to="/forms" className="btn btn-md m-t-30 btn-info-gradiant font-14">Take our Quiz</Link>
                     </Col>
                 </Row>
             </Container>
