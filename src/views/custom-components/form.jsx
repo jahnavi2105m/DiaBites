@@ -1,9 +1,12 @@
 /*page for clients to enter */ 
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Row, Col, Container,Form, FormGroup, Input, Button, } from 'reactstrap';
 
 const form = () => {
+
+  const navigate = useNavigate();
     return (
       <div>
         <div className="spacer bg-light">
@@ -100,13 +103,14 @@ const form = () => {
                           
                          
                           <Col lg="12">
+
                             <Button
-                             className="btn btn-success-gradiant btn-md btn-arrow m-t-20" data-toggle="collapse" href="/result">
+                             className="btn btn-success-gradiant btn-md btn-arrow m-t-20" data-toggle="collapse" onClick={() => navigate("/result")}>
                               <span>
                                 {" "}
                                 SUBMIT <i className="ti-arrow-right"></i>
                               </span>
-                              <a/>
+                              
                             </Button>
                           </Col>
                         </Row>
