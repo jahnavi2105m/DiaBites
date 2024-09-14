@@ -3,8 +3,8 @@ import mysql.connector
 import os
 
 #connecting front-end and back-end components (Cross Origin Resource Sharing )
-from flask_cors import CORS
-CORS(src)
+#from flask_cors import CORS
+#CORS(src)
 
 app = Flask(__name__)
 
@@ -15,16 +15,6 @@ db = mysql.connector.connect(
     password="MySQL@Stuti2005",
     database="mealplan_db"
 )
-
-# Sample route to test if the server is running
-@app.route('/home', methods =['GET'])
-def home():
-    return "Meal Plan API is running!!"
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
-#importing data 
 
 #Algorithim - calcuations based off given data 
 
@@ -70,6 +60,29 @@ def calculate_calories(bmi,bmr, activity_level):
         
 
 #calculate portion sizes based on calorie calculations and excercise level 
+
+
+# Sample route to test if the server is running
+@app.route('/home', methods =['GET'])
+def home():
+     # Grabbing user data from the POST request
+    data = request.json
+    
+    weight = data['weight']  # in kilograms
+    height = data['height']  # in centimeters
+    age = data['age']  # in years
+    gender = data['gender']  # 'male' or 'female'
+    activity_level = data['activity_level']  # sedentary, lightly active, etc.
+    exercise_calories = data['exercise_calories']  # calories burned from exercise
+    
+    return "Meal Plan API is running!!"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
 
 
     
