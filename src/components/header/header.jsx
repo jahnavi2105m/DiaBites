@@ -33,16 +33,7 @@ const Header = () => {
                                         About Us
                                     </Link>
                                 </NavItem>
-                                <NavItem>
-                                    <Link className="nav-link" to={"/team-components"}> 
-                                        Team
-                                    </Link> 
-                                </NavItem>
-                                <NavItem>
-                                    <Link className="nav-link" to={"/custom-components"}> 
-                                        Sources
-                                    </Link>
-                                </NavItem>
+                                
                             </Nav>
                             <div className="act-buttons">
                                 <Link to="/#coming" className="btn btn-success-gradiant font-14">Upgrade To Pro</Link>

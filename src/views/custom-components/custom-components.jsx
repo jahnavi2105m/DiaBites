@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 import Header from "../../components/header/header.jsx";
 import HeaderBanner2 from "../../components/banner2/banner2.jsx";
 import HeaderBannerTeam from "../../components/team-banner/team-banner.jsx";
-import HeaderBannerSources from "../../components/sources-banner/sources-banner.jsx";
 import Footer from "../../components/footer/footer.jsx";
 
 // sections for this page
@@ -29,8 +28,7 @@ const CustomComponents = () => {
             <div className="page-wrapper">
                 <div className="container-fluid">
                     <HeaderBanner2 />
-                    <HeaderBannerTeam />
-                    <HeaderBannerSources />
+                    
                     <HeaderComponent />
                     <BannerComponent />
                     <FormBannerComponent />
