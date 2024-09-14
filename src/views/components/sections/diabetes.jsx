@@ -1,19 +1,25 @@
 import React from 'react';
-import { Badge } from 'reactstrap';
+
+import { Badge, Container, Row, Col } from 'reactstrap';
 
 
-const Labels = () => {
+const Diabetes = () => {
     return (
         <div>
             <div className="spacer" id="label-component">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-md-7 text-center">
-                            <h1 className="title font-bold">Badges</h1>
-                            <h6 className="subtitle">Here you can check Demos we created based on WrapKit. Its quite easy to Create your own dream website &amp; dashboard in No-time.</h6>
-                        </div>
-                    </div>
-                </div>
+                
+                        
+                        <Container>
+                        <Row >
+                        <Col lg="6" md="7" className="align-self-center">
+                            <h1 className="title font-bold">What is Diabetes?</h1>
+                            
+                            <p className="m-t-90 m-b-30">Diabetes is a condition where the body either doesn’t produce enough insulin or can’t effectively use the insulin it does make, leading to high blood sugar levels. This can affect daily life by requiring constant monitoring of food intake, exercise, and medication to keep blood sugar balanced. Left unmanaged, diabetes can lead to serious health complications, however, with the right approach—focusing on personalized nutrition and lifestyle choices—diabetes can be effectively managed, leading to a healthier and more fulfilling life.  </p>
+                            </Col>
+                            </Row>
+                            </Container>
+                        
+                
             </div>
             <div className="container">
                 <div className="row">
@@ -57,4 +63,4 @@ const Labels = () => {
     );
 }
 
-export default Labels;
+export default Diabetes;

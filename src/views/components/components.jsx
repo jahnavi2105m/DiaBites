@@ -7,8 +7,8 @@ import HeaderBanner from "../../components/banner/banner.jsx";
 import Footer from "../../components/footer/footer.jsx";
 
 // sections for this page
-import Buttons from "./sections/buttons.jsx";
-import Labels from "./sections/labels.jsx";
+import AboutUs from "./sections/aboutus.jsx";
+import Diabetes from "./sections/diabetes.jsx";
 import PagePagination from "./sections/pagination.jsx";
 import Images from "./sections/images.jsx";
 import Breadcrumbs from "./sections/breadcrumbs.jsx";
@@ -23,6 +23,7 @@ import JsComponents from "./sections/js-components.jsx";
 import CallToAction from "../../components/call-to-action/CallToAction"
 
 
+
 const Components = () => {
     return (
         <div id="main-wrapper">
@@ -30,8 +31,8 @@ const Components = () => {
             <div className="page-wrapper">
                 <div className="container-fluid">
                     <HeaderBanner />
-                    <Buttons />
-                    <Labels />
+                    <AboutUs />
+                    <Diabetes />
                     <PagePagination />
                     <Images />
                     <Breadcrumbs />
