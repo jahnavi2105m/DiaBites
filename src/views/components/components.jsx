@@ -11,14 +11,10 @@ import AboutUs from "./sections/aboutus.jsx";
 import Diabetes from "./sections/diabetes.jsx";
 import PagePagination from "./sections/pagination.jsx";
 import Images from "./sections/images.jsx";
-import Breadcrumbs from "./sections/breadcrumbs.jsx";
 import Cards from "./sections/cards.jsx";
-import Dropdowns from "./sections/dropdowns.jsx";
 import PageForm from "./sections/form.jsx";
 import PageTable from "./sections/table.jsx";
-import Notification from "./sections/notification.jsx";
 import TooltipPopover from "./sections/tooltip-popover.jsx";
-import Typography from "./sections/typography.jsx";
 import JsComponents from "./sections/js-components.jsx";
 import CallToAction from "../../components/call-to-action/CallToAction"
 
@@ -34,15 +30,11 @@ const Components = () => {
                     <AboutUs />
                     <Diabetes />
                     <PagePagination />
-                    <Images />
-                    <Breadcrumbs />
+                    <Images />                    
                     <Cards />
-                    <Dropdowns />
                     <PageForm />
                     <PageTable />
-                    <Notification />
                     <TooltipPopover />
-                    <Typography />
                     <JsComponents />
                     <CallToAction />
                 </div>

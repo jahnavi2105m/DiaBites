@@ -30,29 +30,7 @@ To make it easier to stick to these plans, we also offer the convenience of purc
                     </Row>
                 </Container>
             </div>
-            <Container>
-                <Row>
-                    <Col md="12" className="text-center">
-                        <div>
-                            <Button color="primary">primary</Button>{' '}
-                            <Button color="secondary">secondary</Button>{' '}
-                            <Button color="success">success</Button>{' '}
-                            <Button color="info">info</Button>{' '}
-                            <Button color="warning">warning</Button>{' '}
-                            <Button color="danger">danger</Button>{' '}
-                            <Button color="link">link</Button>
-                        </div>
-                        <div className="mt-4">
-                            <Button outline color="primary">primary</Button>{' '}
-                            <Button outline color="secondary">secondary</Button>{' '}
-                            <Button outline color="success">success</Button>{' '}
-                            <Button outline color="info">info</Button>{' '}
-                            <Button outline color="warning">warning</Button>{' '}
-                            <Button outline color="danger">danger</Button>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
+            
         </div>
     );
 }
