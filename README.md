@@ -1,5 +1,5 @@
 
-# Diabites - Hack the North 2024
+# DiaBites - Hack the North 2024
 DiaBites is an application designed to help users with diabetes navigate their daily lives with ease, providing them with personalized recipes that allow them to eat holistic and balanced meals, 4 times a day.
 
 
