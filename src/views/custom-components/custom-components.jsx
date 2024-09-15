@@ -19,7 +19,7 @@ import TestimonialComponent from "./sections/testimonialcomponent.jsx";
 import BlogComponent from "./sections/blogcomponent.jsx";
 import C2aComponent from "./sections/c2acomponent.jsx";
 import ContactComponent from "./sections/contactcomponent.jsx";
-import CallToAction from "../../components/call-to-action/CallToAction"
+
 
 const CustomComponents = () => {
     return (
@@ -40,7 +40,7 @@ const CustomComponents = () => {
                     <BlogComponent />
                     <C2aComponent />
                     <ContactComponent />
-                    <CallToAction />
+                    
                 </div>
             </div>
             <Footer />
