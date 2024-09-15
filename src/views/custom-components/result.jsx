@@ -2,10 +2,10 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 
-import img1 from '../../assets/images/portfolio/img1.jpg';
-import img2 from '../../assets/images/portfolio/img2.jpg';
-import img3 from '../../assets/images/portfolio/img3.jpg';
-import img4 from '../../assets/images/portfolio/img4.jpg';
+import BabyCarrotsAndHummus from '../../../assets/images/BabyCarrotsAndHummus.jpg'; // Adjust the path based on your project structure
+import bluerryoats_almonds from '../../../assets/images/bluerryoats_almonds.jpg'; // Adjust the path based on your project structure
+import lentil_penne_turkey from '../../../assets/images/lentil_penne_turkey.jpg'; // Adjust the path based on your project structure
+import Tuna_Apple from '../../../assets/images/Tuna_Apple.jpg'; // Adjust the path based on your project structure
 
 const ResultPage = () => {
   const location = useLocation();
@@ -41,7 +41,7 @@ const ResultPage = () => {
             <Col md="6">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <img className="card-img-top" src={img1} alt="Portfolio item 1" />
+                  <img className="card-img-top" src={BabyCarrotsAndHummus} alt="Portfolio item 1" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Branding for Theme Designer</h5>
@@ -52,7 +52,7 @@ const ResultPage = () => {
             <Col md="6">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <img className="card-img-top" src={img2} alt="Portfolio item 2" />
+                  <img className="card-img-top" src={bluerryoats_almonds} alt="Portfolio item 2" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Button Designs Free</h5>
@@ -66,7 +66,7 @@ const ResultPage = () => {
             <Col md="6">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <img className="card-img-top" src={img3} alt="Portfolio item 3" />
+                  <img className="card-img-top" src={lentil_penne_turkey} alt="Portfolio item 3" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Sionage Mockup</h5>
@@ -77,7 +77,7 @@ const ResultPage = () => {
             <Col md="6">
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
-                  <img className="card-img-top" src={img4} alt="Portfolio item 4" />
+                  <img className="card-img-top" src={Tuna_Apple} alt="Portfolio item 4" />
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Hard Cover Book Mock</h5>
