@@ -10,6 +10,7 @@ const FormComponent = () => {
   let weight= '';
   let age='';
   let sex='';
+  let cal='';
   let fitnessLevel= '';
   let diabetesType= '';
   let dietaryRestrictions= '';
