@@ -3,11 +3,6 @@ import mysql.connector
 import os
 
 
-#connecting front-end and back-end components (Cross Origin Resource Sharing )
-#from flask_cors import CORS
-#CORS(src)
-
-
 app = Flask(__name__)
 
 # Connect to MySQL database
