@@ -174,7 +174,7 @@ const FormComponent = () => {
                             <Input
                               type="text"
                               name="height"
-                              placeholder="Height"
+                              placeholder="Height (cm)"
                               
                               onChange={handleheight}
                             />
@@ -185,7 +185,7 @@ const FormComponent = () => {
                             <Input
                               type="text"
                               name="weight"
-                              placeholder="Weight"
+                              placeholder="Weight (kg)"
                             
                               onChange={handleweight}
                             />
