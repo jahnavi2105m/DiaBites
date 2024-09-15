@@ -25,12 +25,12 @@ const Header = () => {
                             <Nav navbar className="ms-auto">
                                 <NavItem>
                                     <Link className="nav-link" to={"/"}>
-                                        Home
+                                        
                                     </Link>
                                 </NavItem>
                                 <NavItem>
                                     <Link className="nav-link" to={"/custom-components"}>
-                                        My Plan
+                                        
                                     </Link>
                                 </NavItem>
                                 

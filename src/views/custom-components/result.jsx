@@ -7,6 +7,10 @@ import Tuna_Apple from '../../assets/images/Tuna_Apple.jpg'; // Adjust the path 
 import BabyCarrotsAndHummus from '../../assets/images/BabyCarrotsAndHummus.jpg'; // Adjust the path based on your project structure
 import lentil_penne_turkey from '../../assets/images/lentil_penne_turkey.jpg'; // Adjust the path based on your project structure
 
+
+import Groq from "groq-sdk";
+
+
 const ResultPage = () => {
   const location = useLocation();
 
@@ -91,5 +95,9 @@ const ResultPage = () => {
     </div>
   );
 };
+
+
+
+
 
 export default ResultPage;
