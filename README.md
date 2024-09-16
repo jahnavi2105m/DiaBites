@@ -4,10 +4,10 @@ DiaBites is an application designed to help users with diabetes navigate their d
 
 
 ## Technologies
-Frontend: HTML, SCSS, JavaScript, React.js 
-Backend: Python, SQL, Flask Express.js
-Database: Mayo Clinic and Medical News Today
-Prerequisites: MySQL, npm and Python3 installed locally
+-Frontend: HTML, SCSS, JavaScript, React.js 
+-Backend: Python, SQL, Flask Express.js
+-Database: Mayo Clinic and Medical News Today
+-Prerequisites: MySQL, npm and Python3 installed locally
 
 ## What we Learned
 We learned a great deal about the complexities of diabetes management and how personalized nutrition can play a vital role. On the technical side, we gained experience in integrating multiple backend technologies and handling sensitive health-related data.
